@@ -40,6 +40,11 @@
     ]
   },
   "eslintConfig": {
-    "extends": ["./node_modules/standard/eslintrc.json"]
+    "extends": [
+      "./node_modules/standard/eslintrc.json"
+    ]
+  },
+  "dependencies": {
+    "styled-components": "^5.2.1"
   }
 }
