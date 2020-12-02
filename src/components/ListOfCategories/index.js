@@ -16,8 +16,13 @@ export const ListOfCategories = () => {
 
   useEffect(function () {
     const onScroll = e => {
+<<<<<<< HEAD
       const newShowFixed = window.scrollY > 200
       showFixed !== newShowFixed && setShowFixed(newShowFixed)
+=======
+      const newShowFixed = windows.scrollY > 200
+      showFixed != newShowFixed && setShowFixed(newShowFixed)
+>>>>>>> e4854bb0a2fafe281280ce72365eef9353f74846
     }
 
     document.addEventListener('scroll', onScroll)
@@ -36,7 +41,11 @@ export const ListOfCategories = () => {
   return (
     <>
       {renderList()}
+<<<<<<< HEAD
       {showFixed && renderList(true)}
+=======
+      { showFixed && renderList(true)}
+>>>>>>> e4854bb0a2fafe281280ce72365eef9353f74846
     </>
   )
 }
