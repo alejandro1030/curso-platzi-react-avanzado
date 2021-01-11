@@ -27,12 +27,10 @@ export const Link = styled(LinkRouter)`
   justify-content: center;
   text-decoration: none;
   width:100%;
-
   &[aria-current] {
     color: #000;
-
     &:after {
-      ${fadeIn({ time: '0.6s' })};
+      ${fadeIn({ time: '0.7s' })};
       content: '·';
       position: absolute;
       bottom: 0;
