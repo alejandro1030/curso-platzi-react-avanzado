@@ -35,7 +35,7 @@ export const NotRegisteredUser = () => (
                     login({ variables }).then(activateAuth)
                   }
 
-                  const errorMsg = error && 'El usuario ya existe o hay algún problema.'
+                  const errorMsg = error && 'La contraseña no es correcta o el usuario no existe.'
 
                   return <UserForm disabled={loading} error={errorMsg} title='Iniciar Sesión' onSubmit={onSubmit} />
                 }
